@@ -1,0 +1,8 @@
+package statemachine;
+
+/**
+ * Created by z003rx8y on 12.09.2017.
+ */
+public enum States {
+    CREATED, DOWNLOAD, DOWNLOADING, DOWNLOADED, INSTALL, INSTALLING, INSTALLED, ACTIVATE, ACTIVATING, ACTIVATED, CANCELLED, FAILED
+}
